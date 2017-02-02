@@ -1,7 +1,7 @@
 
 .bg_style{
     height: 100vh;
-    background: linear-gradient(180deg, #b10b52, #491682, #494ac6, #3dbdcf, #01d5a0, #77e50d, #a9df3b, #ffcc00);
+    background: linear-gradient(135deg, #b10b52, #491682, #494ac6, #3dbdcf, #01d5a0, #77e50d, #a9df3b, #ffcc00);
     background-size: 1600% 1600%;
 
 -webkit-animation: BG_grad_anim 28s ease infinite;
@@ -11,24 +11,24 @@ animation: BG_grad_anim 28s ease infinite;
 }
 
 @-webkit-keyframes BG_grad_anim {
-    0%{background-position:0% 11%}
-    50%{background-position:100% 90%}
-    100%{background-position:0% 11%}
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
 }
 @-moz-keyframes BG_grad_anim {
-    0%{background-position:0% 11%}
-    50%{background-position:100% 90%}
-    100%{background-position:0% 11%}
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
 }
 @-o-keyframes BG_grad_anim {
-    0%{background-position:0% 11%}
-    50%{background-position:100% 90%}
-    100%{background-position:0% 11%}
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
 }
 @keyframes BG_grad_anim { 
-    0%{background-position:0% 11%}
-    50%{background-position:100% 90%}
-    100%{background-position:0% 11%}
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
 }
 
 /*body .logo img{
