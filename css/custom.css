@@ -1,1 +1,84 @@
 
+.bg_style{
+    height: 100vh;
+    background: linear-gradient(180deg, #b10b52, #491682, #494ac6, #3dbdcf, #01d5a0, #77e50d, #a9df3b, #ffcc00);
+    background-size: 1600% 1600%;
+
+-webkit-animation: BG_grad_anim 28s ease infinite;
+-moz-animation: BG_grad_anim 28s ease infinite;
+-o-animation: BG_grad_anim 28s ease infinite;
+animation: BG_grad_anim 28s ease infinite;
+}
+
+@-webkit-keyframes BG_grad_anim {
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}
+@-moz-keyframes BG_grad_anim {
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}
+@-o-keyframes BG_grad_anim {
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}
+@keyframes BG_grad_anim { 
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}
+
+/*body .logo img{
+    margin:0 auto;
+    display: block;
+}*/
+body .logo h2{
+    text-align: center;
+}
+.vcenter{
+    display: table;
+}
+.vrow{
+/*    display: table-cell;
+    vertical-align: middle;*/
+      height: 100vh;
+  position: relative;
+  width: auto;
+}
+.helper{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+body .logo {
+    width: auto;
+
+ 
+  /* This is what you need to center your element both vertically and horizontally. */
+  left: 50%;
+  position: absolute; /* Don't forget to add position: relative; to your container. */
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body .logo img {
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.25)); filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.25)); -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=0, Color='#333')"; filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=0, Color='#333')"
+        -webkit-transition: all 0.6s ease;
+         -moz-transition: all 0.6s ease;
+           -o-transition: all 0.6s ease;
+          -ms-transition: all 0.6s ease;
+              transition: all 0.6s ease;
+
+}
+body .logo img:hover {
+    -webkit-filter: drop-shadow(0px 0px 0px rgba(0,0,0,0.0)); filter: drop-shadow(0px 0px 0px rgba(0,0,0,0));
+            -webkit-transition: all 0.6s ease;
+         -moz-transition: all 0.6s ease;
+           -o-transition: all 0.6s ease;
+          -ms-transition: all 0.6s ease;
+              transition: all 0.6s ease;
+
+}
